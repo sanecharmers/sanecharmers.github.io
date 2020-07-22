@@ -8,7 +8,10 @@ body {
   font-size: 21px;
   font-family: "IBM Plex Sans ", sans-serif;
   line-height: 32px;
+  padding: 0;
+  margin: 0;
   letter-spacing: -0.003em;
+  overflow-x: hidden;
 }
 h1,
 h2,
@@ -70,10 +73,10 @@ pre {
   font-family: "IBM Plex Mono", monospace;
 }
 /*PRE*/
-hr{
+hr {
   background-color: #f9d276;
 }
-i{
+i {
   color: #ffffff;
   margin: auto;
 }
@@ -115,7 +118,7 @@ i{
     margin-right: auto;
   }
 }
-.social-card{
+.social-card {
   text-align: center;
   margin-left: auto;
   margin-right: auto;
@@ -127,17 +130,17 @@ i{
   font-family: "Roboto Mono", monospace;
   text-align: center;
   color: #f9d276;
-  text-shadow: 4px 21px 13px rgba(249,210,118,1);
+  text-shadow: 4px 21px 13px rgba(249, 210, 118, 1);
   font-size: 7rem;
 }
 .msg {
   position: relative;
   margin: 3rem;
   display: block;
-  text-shadow: 4px 21px 13px rgba(249,210,118,1);
+  text-shadow: 4px 21px 13px rgba(249, 210, 118, 1);
   font-family: "Roboto Mono", monospace;
   text-align: center;
-  color: rgba(0, 0, 0, .4);
+  color: rgba(0, 0, 0, 0.4);
   font-size: 80px;
 }
 .footer {
@@ -261,7 +264,6 @@ i{
   .footer-card {
     width: 18rem;
   }
-  
 }
 .custom-shape-divider-top-1595392015 {
   position: absolute;
@@ -289,7 +291,7 @@ i{
   -webkit-animation: heartbeat 1.5s ease-in-out 4s both;
   animation: heartbeat 1.5s ease-in-out 4s both;
 }
-.main{
-  min-height : 700px;
+.main {
+  min-height: 700px;
   background-color: #313131;
-  }
+}
